@@ -9,7 +9,7 @@
         <a v-link="'/about'">关于</a>
       </li>
       <li>
-        <a v-link="'/tags'">标签</a>
+        <a v-link="'/tags'">新闻列表</a>
       </li>
     </ul>
     <div class="header-title"><h1 v-if="show" transition="fade">{{headlineFinal}}</h1></div>
